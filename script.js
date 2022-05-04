@@ -1,4 +1,5 @@
 let centenaString, dezenaString, unidadeString
+//teste
 function ler(numero){
     numeroString = numero.toString()
     numeroArray = numeroString.split('')
