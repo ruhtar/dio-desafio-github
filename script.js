@@ -1,5 +1,4 @@
 let centenaString, dezenaString, unidadeString
-//teste
 function ler(numero){
     numeroString = numero.toString()
     numeroArray = numeroString.split('')
@@ -21,7 +20,6 @@ function unidades(unidade=0){
     if(unidade==7){unidadeString = ' seven'}
     if(unidade==8){unidadeString = ' eight'}
     if(unidade==9){unidadeString = ' nine'}  
-    //return console.log(unidadeString)
     }
 
     function dezenas(dezena=0){
@@ -35,7 +33,6 @@ function unidades(unidade=0){
         if(dezena==7){dezenaString = ' seventy'}
         if(dezena==8){dezenaString = ' eighty'}
         if(dezena==9){dezenaString = ' ninety'}  
-        //return console.log(dezenaString)
         }
 
         function centenas(centena=0){
@@ -50,7 +47,6 @@ function unidades(unidade=0){
             if(centena==7){centenaString = ' seven hundred'}
             if(centena==8){centenaString = ' eight hundred'}
             if(centena==9){centenaString = ' nine hundred'}  
-            //return console.log(centenaString)
             }
         function zero(){
             if(centenaString == '' && dezenaString == '' && unidadeString == '' ){
